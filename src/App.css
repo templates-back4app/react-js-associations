@@ -1,0 +1,162 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+}
+
+html {
+  box-sizing: border-box;
+  outline: none;
+  overflow: auto;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: bold;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px 0;
+  text-align: left;
+}
+
+.header {
+  align-items: center;
+  padding: 25px 0;
+  background-color: #208AEC;
+}
+
+.header_logo {
+  height: 55px;
+  margin-bottom: 20px;
+  object-fit: contain;
+}
+
+.header_text_bold {
+  margin-bottom: 3px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.header_text {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 15px;
+}
+
+.heading {
+  font-size: 22px;
+}
+
+.subheading {
+  padding-top: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-top: 1px solid rgba(0,0,0,0.06);
+  color: #208AEC;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.subheading:first-child {
+  padding-top: 0;
+  margin-top: 0;
+  border-top: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex_center {
+  display: flex;
+  align-items: center;
+}
+
+.flex_between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex_child {
+  flex: 0 0 45%;
+}
+
+.flex_child_form {
+  flex: 0 0 48%;
+}
+
+.form_wrapper {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.form_input {
+  margin-bottom: 20px;
+}
+
+.form_buttons {
+  margin-top: 25px;
+}
+
+.form_button {
+  width: 100%;
+}
+
+.form_button_margin_top {
+  margin-top: 20px;
+}
+
+.heading_button {
+  margin-left: 12px;
+}
+
+.checkbox_item {
+  margin-bottom: 10px;
+}
+
+.checkbox_text {
+  margin-right: 8px;
+}
+
+.book {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  text-align: left;
+}
+
+.book_title {
+  color: rgba(0,0,0,0.87);
+  font-size: 17px;
+}
+
+.book_description {
+  color: rgba(0,0,0,0.5);
+  font-size: 15px;
+}
