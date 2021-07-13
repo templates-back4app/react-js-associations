@@ -6,9 +6,9 @@ import { ObjectCreationForm } from './ObjectCreationForm';
 import { BookCreationForm } from './BookCreationForm';
 
 // Your Parse initialization configuration goes here
-const PARSE_APPLICATION_ID = 'yq9jjiz8nTIKTTDTliJqxyqCNH0oZSR5u2kH42ge';
+const PARSE_APPLICATION_ID = 'YOUR_PARSE_APPLICATION_ID';
 const PARSE_HOST_URL = 'https://parseapi.back4app.com/';
-const PARSE_JAVASCRIPT_KEY = 'Zxhr9RQkEGn6CYL5f02kSUItsi1p78bDgzEqBoh1';
+const PARSE_JAVASCRIPT_KEY = 'YOUR_PARSE_JAVASCRIPT_KEY';
 Parse.initialize(PARSE_APPLICATION_ID, PARSE_JAVASCRIPT_KEY);
 Parse.serverURL = PARSE_HOST_URL;
 
